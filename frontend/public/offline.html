@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mysuru Dasara 2026 – Offline</title>
+  <link rel="manifest" href="/manifest.json" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0A0F2C;
+      color: #FFF8E7;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container { max-width: 500px; padding: 2rem; }
+    h1 { color: #D4A017; font-size: 2rem; margin-bottom: 0.5rem; }
+    .kannada { font-size: 1.2rem; color: #F5C842; margin-bottom: 1.5rem; opacity: 0.8; }
+    p { color: #FFF8E7; opacity: 0.7; line-height: 1.6; margin-bottom: 1rem; }
+    .icon { font-size: 4rem; margin-bottom: 1.5rem; }
+    .tips { background: rgba(74,18,89,0.3); border: 1px solid rgba(212,160,23,0.3); border-radius: 12px; padding: 1.5rem; margin-top: 1.5rem; text-align: left; }
+    .tips h3 { color: #D4A017; margin-bottom: 1rem; }
+    .tips li { margin-bottom: 0.5rem; opacity: 0.8; }
+    button { background: #D4A017; color: #0A0F2C; border: none; padding: 0.75rem 2rem; border-radius: 8px; font-size: 1rem; cursor: pointer; margin-top: 1rem; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">🏛️</div>
+    <h1>MYSURU DASARA 2026</h1>
+    <p class="kannada">ಮೈಸೂರು ದಸರಾ ೨೦೨೬</p>
+    <p>You appear to be offline. Some features require an internet connection.</p>
+    <div class="tips">
+      <h3>📱 Available Offline</h3>
+      <ul>
+        <li>✅ Saved itineraries</li>
+        <li>✅ Visitor tips and guidelines</li>
+        <li>✅ Emergency contacts</li>
+        <li>✅ Previously viewed events</li>
+        <li>❌ AI Guide (requires internet)</li>
+        <li>❌ Live event updates</li>
+        <li>❌ Interactive map (requires internet)</li>
+      </ul>
+    </div>
+    <button onclick="window.location.reload()">Try Again</button>
+  </div>
+</body>
+</html>

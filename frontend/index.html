@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mysuru Dasara 2026 - Digital Heritage & Immersive Festival Platform. Experience the grandeur of Karnataka's greatest festival through 3D environments, AI guide, and interactive cultural exhibits." />
+    <meta name="keywords" content="Mysuru Dasara, Dasara 2026, Mysore Palace, Karnataka, Jamboo Savari, heritage, festival" />
+    <meta name="theme-color" content="#4A1259" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mysuru Dasara 2026 – ಮೈಸೂರು ದಸರಾ" />
+    <meta property="og:description" content="Experience Karnataka's greatest festival digitally — 3D palace, Jamboo Savari, cultural museum, and AI guide." />
+    <meta property="og:type" content="website" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/images/icon-192.png" />
+
+    <title>Mysuru Dasara 2026 – ಮೈಸೂರು ದಸರಾ ೨೦೨೬</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Register service worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('SW registered:', reg.scope))
+            .catch(err => console.log('SW registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>

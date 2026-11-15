@@ -1,0 +1,87 @@
+# Git ignore for Mysuru Dasara 2026
+
+# Environment variables (NEVER commit these)
+.env
+.env.*
+*.env
+**/.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+**/venv/
+env/
+ENV/
+.venv/
+**/.venv/
+
+# Django
+*.sqlite3
+**/db.sqlite3
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+backend/*.log
+
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite / React build
+frontend/dist/
+frontend/.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# 3D Assets (too large for git - use LFS or external storage)
+frontend/public/models/*.glb
+frontend/public/models/*.gltf
+frontend/public/textures/*.ktx2
+frontend/public/audio/*.mp3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover

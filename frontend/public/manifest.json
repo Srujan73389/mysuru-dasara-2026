@@ -1,0 +1,35 @@
+{
+  "name": "Mysuru Dasara 2026",
+  "short_name": "Dasara 2026",
+  "description": "Digital Heritage & Immersive Festival Platform for Mysuru Dasara 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0F2C",
+  "theme_color": "#4A1259",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Mysuru Dasara 2026 Home"
+    }
+  ],
+  "categories": ["travel", "education", "entertainment"],
+  "prefer_related_applications": false
+}

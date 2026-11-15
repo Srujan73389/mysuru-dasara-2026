@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Noto+Sans+Kannada:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-royal-purple: #4A1259;
+  --color-deep-purple: #2D0A3D;
+  --color-gold: #D4A017;
+  --color-gold-light: #F5C842;
+  --color-cream: #FFF8E7;
+  --color-midnight-blue: #0A0F2C;
+  --color-accent-orange: #E85D04;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-kannada: 'Noto Sans Kannada', system-ui, sans-serif;
+
+  --background-image-palace-gradient: linear-gradient(180deg, #0A0F2C 0%, #2D0A3D 40%, #4A1259 100%);
+  --background-image-royal-gradient: linear-gradient(135deg, #2D0A3D 0%, #4A1259 50%, #0A0F2C 100%);
+
+  --shadow-gold-glow: 0 0 20px rgba(212, 160, 23, 0.4);
+  --shadow-purple-glow: 0 0 30px rgba(74, 18, 89, 0.6);
+  --shadow-royal: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+:root {
+  --color-royal-purple: #4A1259;
+  --color-deep-purple: #2D0A3D;
+  --color-gold: #D4A017;
+  --color-gold-light: #F5C842;
+  --color-cream: #FFF8E7;
+  --color-midnight-blue: #0A0F2C;
+  --color-accent-orange: #E85D04;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: #0A0F2C;
+  color: #FFF8E7;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0A0F2C; }
+::-webkit-scrollbar-thumb { background: #4A1259; border-radius: 3px; }
+
+/* Custom Sleek Scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(251, 191, 36, 0.45) rgba(15, 23, 42, 0.6);
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36, 0.45);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 191, 36, 0.85);
+}
+
+/* Glass morphism utility */
+.glass {
+  background: rgba(74, 18, 89, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 160, 23, 0.25);
+}
+
+.glass-dark {
+  background: rgba(10, 15, 44, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 160, 23, 0.2);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #D4A017, #F5C842, #D4A017);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.font-kannada {
+  font-family: 'Noto Sans Kannada', system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Accessibility classes */
+body.high-contrast {
+  filter: contrast(130%);
+}
+
+body.high-contrast .glass,
+body.high-contrast .glass-dark {
+  background: #000000 !important;
+  border: 2px solid #FFD700 !important;
+}
+
+body.reduce-motion * {
+  animation-duration: 0.001s !important;
+  transition-duration: 0.001s !important;
+}
+
+/* Leaflet map fix */
+.leaflet-container {
+  z-index: 0;
+}
+
