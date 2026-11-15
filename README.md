@@ -1,6 +1,13 @@
 # 👑 MYSURU DASARA 2026 | ಮೈಸೂರು ದಸರಾ ೨೦೨೬
 ### 🌟 Next-Gen Immersive Digital Heritage & Cultural Tourism Platform
 
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-mysuru--dasara--2026.vercel.app-success?style=for-the-badge&logo=vercel&logoColor=white)](https://mysuru-dasara-2026.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/Srujan73389/mysuru-dasara-2026)
+
+<br/>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.0-61dafb.svg?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178c6.svg?logo=typescript)](https://www.typescriptlang.org/)
@@ -9,6 +16,21 @@
 [![Django](https://img.shields.io/badge/Django-5.1%20%7C%206.0-092e20.svg?logo=django)](https://www.djangoproject.com/)
 [![Gemini AI](https://img.shields.io/badge/AI-Google%20Gemini%20Flash-8e75ff.svg?logo=google)](https://ai.google.dev/)
 [![PWA Ready](https://img.shields.io/badge/PWA-Installable%20%26%20Offline-orange.svg)](#)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌐 Live Interactive Portal
+
+### ✨ [Click Here to Explore Mysuru Dasara 2026 Online](https://mysuru-dasara-2026.vercel.app/)
+> **Live URL:** [https://mysuru-dasara-2026.vercel.app/](https://mysuru-dasara-2026.vercel.app/)
+
+*Experience 19 Interactive Pages • 3D Mysore Palace • Ambari Tusker Simulator • Mysore GI Crafts • Ganjifa Royal Cards • 6-Channel Soundscape Mixer • Smart IoT Parking Map*
+
+</div>
 
 ---
 
@@ -19,7 +41,8 @@
 Designed and engineered with cutting-edge 3D WebGL graphics, spatial audio synthesis, IoT telemetry simulation, AI-powered multilingual conversational guidance, and royal heritage mini-games, this platform brings the majesty of Mysuru to audiences across the globe.
 
 > 🏛️ **Creator & Lead Developer:** **SRUJAN G M**  
-> 🔗 **Repository:** [https://github.com/Srujan73389/mysuru-dasara-2026](https://github.com/Srujan73389/mysuru-dasara-2026)
+> 🌐 **Live Website:** [https://mysuru-dasara-2026.vercel.app/](https://mysuru-dasara-2026.vercel.app/)  
+> 🔗 **GitHub Repository:** [https://github.com/Srujan73389/mysuru-dasara-2026](https://github.com/Srujan73389/mysuru-dasara-2026)
 
 ---
 
@@ -196,6 +219,7 @@ Django Admin: **`http://localhost:8000/admin/`**
 ## 👨‍💻 Author & Acknowledgements
 
 - **Lead Developer**: **SRUJAN G M** ([@Srujan73389](https://github.com/Srujan73389))
+- **Live Deployment**: [https://mysuru-dasara-2026.vercel.app/](https://mysuru-dasara-2026.vercel.app/)
 - **Dedicated to**: The rich 400+ year cultural heritage of Mysuru Dasara, the artists, mahouts, craftsmen, and citizens of Karnataka.
 
 ---
